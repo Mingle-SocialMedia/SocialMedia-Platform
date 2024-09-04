@@ -1,0 +1,186 @@
+aside {
+    display: flex;
+    justify-content: start;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+}
+.aside-Right{
+    display:flex;
+    justify-content: flex-end;
+    padding-left:80px ;
+}
+.Trends{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.aside-cont-div {
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    width: 100px;
+    height: 100vh;
+    padding-top: 10px;
+    gap: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+    background-color: #f5f5f5; 
+}
+
+.aside-cont-div button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.aside-btn-set {
+    margin-top: auto; 
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont-post-div-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+    width: 100%;
+    padding: 20px;
+}
+.top-highlight {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5); /* Bottom-only shadow */
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 10px; /* Optional: Space between the elements */
+}
+
+.poster-det {
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    align-items: center;
+}
+
+.prof-user {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.poster-name {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap:400px;
+    /* Aligns content from the start */
+    
+}
+
+.prof-details-name {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.post-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* Style for the post card */
+.post-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    gap:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    height: 500px;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.post-opt-div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-top:10px;
+    width: 40%;
+    align-items: center;
+    margin-top: 20px;
+}
+.post-cont {
+    margin-top: 20px;
+    height: 450px;
+}
+#cmt-input{
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.btn-opt {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-opt button,.btn-edit,#follow,.btn-145{
+    background-color: #000000; 
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.btn-opt button:hover{
+    background-color: #f84109;
+}
+#follow:hover{
+    background-color: #f84109;
+}
+.btn-145:hover{
+    background-color: #f84109;
+}
+.prof-div-togg,.post-add-div{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px); 
+    z-index: 1000; 
+}

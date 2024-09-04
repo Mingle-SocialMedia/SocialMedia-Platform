@@ -1,0 +1,23 @@
+.div-post-add-main{
+    display: flex;
+    border: 1px solid #ddd;
+    flex-direction: column;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+.form-data-div form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-data-div form input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #f84109;
+}
+#file-in{
+    background: none;
+    border: none;
+}
